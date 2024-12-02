@@ -1,0 +1,10 @@
+
+Summary about Linter:
+-We decided to use cpplint as a Linter. This is a C++ style checker, 
+to analyze my code for potential issues and ensure it followed best 
+practices based on Google’s C++ Style Guide. After installing cpplint 
+using pip, we ran it on our main project files main.cpp, Page.cpp, and 
+WikiLadder.cpp to identify and fix style issues like inconsistent 
+formatting and missing comments. Using cpplint helped improve the 
+overall readability and maintainability of my code.
+
