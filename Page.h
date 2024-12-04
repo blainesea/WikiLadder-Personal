@@ -6,21 +6,20 @@
 
 class Page {
 private:
-    std::string title;                 // Title of the Wikipedia page
-    std::vector<std::string> links;    // Links to other pages
+    std::string title;
+    std::vector<std::string> links;
+
+    void parseLinks(const std::string& htmlData);
 
 public:
-    // Constructor
     Page(const std::string& title);
 
-    // Accessor for the page title
-    const std::string& getTitle() const;
-
-    // Accessor for the links
-    const std::vector<std::string>& getLinks() const;
-
-    // Fetch links for the page (mock implementation for now)
+    // Fetch links from the page
     void fetchLinks();
+
+    // Getters
+    std::string getTitle() const;
+    std::vector<std::string> getLinks() const;
 };
 
 #endif // PAGE_H
