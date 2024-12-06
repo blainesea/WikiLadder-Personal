@@ -1,0 +1,161 @@
+Start testing: Dec 06 15:54 UTC
+----------------------------------------------------------
+1/1 Testing: WikiLadderTest
+1/1 Test: WikiLadderTest
+Command: "/workspaces/FinalProject-300-500/build/WikiLadderTest"
+Directory: /workspaces/FinalProject-300-500/build
+"WikiLadderTest" start time: Dec 06 15:54 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspaces/FinalProject-300-500/googletest/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from WikiLadderTest
+[ RUN      ] WikiLadderTest.PizzaToTomatoes
+Fetched HTML size: 398527 bytes
+Fetched HTML size: 71857 bytes
+Fetched HTML size: 218168 bytes
+Link limit reached. Stopping further processing.
+Fetched HTML size: 1215398 bytes
+Link limit reached. Stopping further processing.
+Fetched HTML size: 832320 bytes
+Link limit reached. Stopping further processing.
+Fetched HTML size: 473568 bytes
+Link limit reached. Stopping further processing.
+Fetched HTML size: 166059 bytes
+Fetched HTML size: 200455 bytes
+Fetched HTML size: 152669 bytes
+Fetched HTML size: 185393 bytes
+Fetched HTML size: 200889 bytes
+Fetched HTML size: 160464 bytes
+Fetched HTML size: 376687 bytes
+Link limit reached. Stopping further processing.
+Fetched HTML size: 113637 bytes
+Fetched HTML size: 82347 bytes
+Fetched HTML size: 112161 bytes
+Fetched HTML size: 97987 bytes
+Fetched HTML size: 149242 bytes
+Fetched HTML size: 96376 bytes
+Fetched HTML size: 85114 bytes
+Fetched HTML size: 150253 bytes
+Fetched HTML size: 198630 bytes
+Fetched HTML size: 120227 bytes
+Fetched HTML size: 83106 bytes
+Fetched HTML size: 69731 bytes
+Fetched HTML size: 81548 bytes
+Fetched HTML size: 97417 bytes
+Fetched HTML size: 376687 bytes
+Link limit reached. Stopping further processing.
+Fetched HTML size: 168017 bytes
+Fetched HTML size: 78034 bytes
+Fetched HTML size: 122620 bytes
+Fetched HTML size: 114886 bytes
+Fetched HTML size: 114303 bytes
+Fetched HTML size: 100924 bytes
+Fetched HTML size: 82745 bytes
+Fetched HTML size: 81140 bytes
+Fetched HTML size: 121231 bytes
+Fetched HTML size: 94493 bytes
+Fetched HTML size: 70197 bytes
+Fetched HTML size: 107169 bytes
+Fetched HTML size: 138403 bytes
+Fetched HTML size: 102394 bytes
+Fetched HTML size: 112087 bytes
+Fetched HTML size: 81992 bytes
+Fetched HTML size: 73877 bytes
+Fetched HTML size: 116936 bytes
+Fetched HTML size: 117879 bytes
+Fetched HTML size: 97970 bytes
+Fetched HTML size: 108748 bytes
+Fetched HTML size: 118010 bytes
+Fetched HTML size: 168557 bytes
+Fetched HTML size: 187489 bytes
+Fetched HTML size: 91564 bytes
+Fetched HTML size: 95005 bytes
+Fetched HTML size: 103532 bytes
+Fetched HTML size: 126700 bytes
+Fetched HTML size: 377123 bytes
+Link limit reached. Stopping further processing.
+Fetched HTML size: 70401 bytes
+Fetched HTML size: 89233 bytes
+Fetched HTML size: 111352 bytes
+Fetched HTML size: 73002 bytes
+Fetched HTML size: 113505 bytes
+Fetched HTML size: 398944 bytes
+Fetched HTML size: 115003 bytes
+Fetched HTML size: 134564 bytes
+Fetched HTML size: 103447 bytes
+Fetched HTML size: 144486 bytes
+Fetched HTML size: 100483 bytes
+Fetched HTML size: 97658 bytes
+Fetched HTML size: 98668 bytes
+Fetched HTML size: 121116 bytes
+Fetched HTML size: 117203 bytes
+Fetched HTML size: 150973 bytes
+Fetched HTML size: 69229 bytes
+Fetched HTML size: 86670 bytes
+Fetched HTML size: 89342 bytes
+Fetched HTML size: 141727 bytes
+Fetched HTML size: 96628 bytes
+Fetched HTML size: 127671 bytes
+Fetched HTML size: 83643 bytes
+Fetched HTML size: 97451 bytes
+Fetched HTML size: 104094 bytes
+Fetched HTML size: 88131 bytes
+Fetched HTML size: 159254 bytes
+Fetched HTML size: 100280 bytes
+Fetched HTML size: 97582 bytes
+Fetched HTML size: 70609 bytes
+Fetched HTML size: 173965 bytes
+Fetched HTML size: 88003 bytes
+Fetched HTML size: 124061 bytes
+Fetched HTML size: 114049 bytes
+Fetched HTML size: 95369 bytes
+Fetched HTML size: 169549 bytes
+Fetched HTML size: 128008 bytes
+Fetched HTML size: 118783 bytes
+Fetched HTML size: 143429 bytes
+Fetched HTML size: 173818 bytes
+Fetched HTML size: 140862 bytes
+Fetched HTML size: 137117 bytes
+Fetched HTML size: 117352 bytes
+Fetched HTML size: 160997 bytes
+Fetched HTML size: 126328 bytes
+Fetched HTML size: 112128 bytes
+Fetched HTML size: 146344 bytes
+Fetched HTML size: 197427 bytes
+Fetched HTML size: 141276 bytes
+Fetched HTML size: 104178 bytes
+Fetched HTML size: 90452 bytes
+Fetched HTML size: 69306 bytes
+Fetched HTML size: 87547 bytes
+Fetched HTML size: 130572 bytes
+Fetched HTML size: 156180 bytes
+Fetched HTML size: 159718 bytes
+Fetched HTML size: 138417 bytes
+Fetched HTML size: 107592 bytes
+Fetched HTML size: 198105 bytes
+Fetched HTML size: 96391 bytes
+Fetched HTML size: 158319 bytes
+Fetched HTML size: 262413 bytes
+Link limit reached. Stopping further processing.
+[       OK ] WikiLadderTest.PizzaToTomatoes (20157 ms)
+[----------] 1 test from WikiLadderTest (20157 ms total)
+
+[----------] 1 test from SimpleTest
+[ RUN      ] SimpleTest.FailsOnPurpose
+[       OK ] SimpleTest.FailsOnPurpose (0 ms)
+[----------] 1 test from SimpleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test suites ran. (20157 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =  20.17 sec
+----------------------------------------------------------
+Test Passed.
+"WikiLadderTest" end time: Dec 06 15:55 UTC
+"WikiLadderTest" time elapsed: 00:00:20
+----------------------------------------------------------
+
+End testing: Dec 06 15:55 UTC

@@ -1,0 +1,69 @@
+\doxysection{Wiki\+Ladder Class Reference}
+\hypertarget{classWikiLadder}{}\label{classWikiLadder}\index{WikiLadder@{WikiLadder}}
+
+
+A class that finds the shortest ladder of Wikipedia pages between a start and target page.  
+
+
+
+
+{\ttfamily \#include $<$Wiki\+Ladder.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classWikiLadder_a4312c97d1df2be1f8eef7a922414ac9e}{find\+Ladder}} (const \mbox{\hyperlink{classPage}{Page}} \&start, const \mbox{\hyperlink{classPage}{Page}} \&target)
+\begin{DoxyCompactList}\small\item\em Finds the shortest ladder between the start and target pages. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that finds the shortest ladder of Wikipedia pages between a start and target page. 
+
+The \doxylink{classWikiLadder}{Wiki\+Ladder} class uses a breadth-\/first search (BFS) algorithm to find the shortest sequence of Wikipedia pages that connect a start page to a target page. Each page in the ladder contains a hyperlink to the next page in the sequence. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classWikiLadder_a4312c97d1df2be1f8eef7a922414ac9e}\index{WikiLadder@{WikiLadder}!findLadder@{findLadder}}
+\index{findLadder@{findLadder}!WikiLadder@{WikiLadder}}
+\doxysubsubsection{\texorpdfstring{findLadder()}{findLadder()}}
+{\footnotesize\ttfamily \label{classWikiLadder_a4312c97d1df2be1f8eef7a922414ac9e} 
+std\+::vector$<$ std\+::string $>$ Wiki\+Ladder\+::find\+Ladder (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPage}{Page}} \&}]{start}{, }\item[{const \mbox{\hyperlink{classPage}{Page}} \&}]{target}{}\end{DoxyParamCaption})}
+
+
+
+Finds the shortest ladder between the start and target pages. 
+
+Finds the shortest ladder of Wikipedia pages from the start page to the target page.
+
+This function uses a breadth-\/first search (BFS) to find the shortest path (ladder) from the start page to the target page by exploring links from each page in the path. The function returns a vector of strings representing the sequence of page titles from start to target.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & The starting page from which to begin searching. \\
+\hline
+{\em target} & The target page to find a path to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of strings representing the ladder of page titles from start to target. If no path is found, an empty vector is returned.
+\end{DoxyReturn}
+This function uses a breadth-\/first search (BFS) algorithm to explore links from the start page and find the shortest path to the target page. It constructs a path (ladder) that consists of Wikipedia pages, where each page is linked to the next in the ladder.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & The starting page (from which to begin searching). \\
+\hline
+{\em target} & The target page (the goal of the search). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of strings representing the ladder of page titles from start to target. If no path is found, an empty vector is returned.
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+If the start and target pages are the same, the ladder will contain just that page. 
+\end{DoxyNote}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{WikiLadder_8h}{Wiki\+Ladder.\+h}}\item 
+\mbox{\hyperlink{WikiLadder_8cpp}{Wiki\+Ladder.\+cpp}}\end{DoxyCompactItemize}

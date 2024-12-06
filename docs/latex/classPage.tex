@@ -1,0 +1,112 @@
+\doxysection{Page Class Reference}
+\hypertarget{classPage}{}\label{classPage}\index{Page@{Page}}
+
+
+Represents a Wikipedia page with a title and a list of links to other pages.  
+
+
+
+
+{\ttfamily \#include $<$Page.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPage_ae6ee757b2751af99c98bf586fb7899a8}{Page}} (const std\+::string \&title)
+\begin{DoxyCompactList}\small\item\em Constructs a \doxylink{classPage}{Page} object with the specified title. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPage_a4ae6686847e89cc8a05adbeb9580a336}{fetch\+Links}} ()
+\begin{DoxyCompactList}\small\item\em Fetches links from the Wikipedia page. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPage_a72245a906308d05668804761fca1834e}{get\+Title}} () const
+\begin{DoxyCompactList}\small\item\em Gets the title of the Wikipedia page. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classPage_ac2d67cb01c590909b878b9259e0aa395}{get\+Links}} () const
+\begin{DoxyCompactList}\small\item\em Gets the list of links from the Wikipedia page. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a Wikipedia page with a title and a list of links to other pages. 
+
+The \doxylink{classPage}{Page} class models a single Wikipedia page, including its title and the hyperlinks to other pages contained within the page. It includes methods to fetch links from the page and retrieve the title and list of links. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classPage_ae6ee757b2751af99c98bf586fb7899a8}\index{Page@{Page}!Page@{Page}}
+\index{Page@{Page}!Page@{Page}}
+\doxysubsubsection{\texorpdfstring{Page()}{Page()}}
+{\footnotesize\ttfamily \label{classPage_ae6ee757b2751af99c98bf586fb7899a8} 
+Page\+::\+Page (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title}{}\end{DoxyParamCaption})}
+
+
+
+Constructs a \doxylink{classPage}{Page} object with the specified title. 
+
+This constructor initializes a \doxylink{classPage}{Page} object with the given title. The {\ttfamily links} member variable is initially empty and will be populated when the {\ttfamily fetch\+Links} method is called.
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & The title of the Wikipedia page.\\
+\hline
+\end{DoxyParams}
+This constructor initializes the {\ttfamily \doxylink{classPage}{Page}} object with the given title. The {\ttfamily links} member variable is initially empty.
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & The title of the Wikipedia page. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classPage_a4ae6686847e89cc8a05adbeb9580a336}\index{Page@{Page}!fetchLinks@{fetchLinks}}
+\index{fetchLinks@{fetchLinks}!Page@{Page}}
+\doxysubsubsection{\texorpdfstring{fetchLinks()}{fetchLinks()}}
+{\footnotesize\ttfamily \label{classPage_a4ae6686847e89cc8a05adbeb9580a336} 
+void Page\+::fetch\+Links (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Fetches links from the Wikipedia page. 
+
+Fetches the HTML content of the Wikipedia page and parses its links.
+
+This method fetches the HTML content of the page and parses it to extract all links to other pages. The links are stored in the {\ttfamily links} member variable.
+
+This method builds the URL for the Wikipedia page based on its title and uses c\+URL to fetch the HTML content of the page. Once the content is fetched, it is passed to the {\ttfamily parse\+Links} method for extracting links. \Hypertarget{classPage_ac2d67cb01c590909b878b9259e0aa395}\index{Page@{Page}!getLinks@{getLinks}}
+\index{getLinks@{getLinks}!Page@{Page}}
+\doxysubsubsection{\texorpdfstring{getLinks()}{getLinks()}}
+{\footnotesize\ttfamily \label{classPage_ac2d67cb01c590909b878b9259e0aa395} 
+std\+::vector$<$ std\+::string $>$ Page\+::get\+Links (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Gets the list of links from the Wikipedia page. 
+
+This method returns a vector of strings representing the titles of the pages linked to from the current Wikipedia page.
+
+\begin{DoxyReturn}{Returns}
+A vector of strings representing the titles of linked pages. 
+\end{DoxyReturn}
+\Hypertarget{classPage_a72245a906308d05668804761fca1834e}\index{Page@{Page}!getTitle@{getTitle}}
+\index{getTitle@{getTitle}!Page@{Page}}
+\doxysubsubsection{\texorpdfstring{getTitle()}{getTitle()}}
+{\footnotesize\ttfamily \label{classPage_a72245a906308d05668804761fca1834e} 
+std\+::string Page\+::get\+Title (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Gets the title of the Wikipedia page. 
+
+This method returns the title of the page.
+
+\begin{DoxyReturn}{Returns}
+The title of the Wikipedia page.
+\end{DoxyReturn}
+This method returns the title of the Wikipedia page.
+
+\begin{DoxyReturn}{Returns}
+The title of the Wikipedia page. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Page_8h}{Page.\+h}}\item 
+\mbox{\hyperlink{Page_8cpp}{Page.\+cpp}}\end{DoxyCompactItemize}

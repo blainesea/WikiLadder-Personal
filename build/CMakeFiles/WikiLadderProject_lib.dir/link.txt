@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWikiLadderProject_lib.a  CMakeFiles/WikiLadderProject_lib.dir/Page.cpp.o CMakeFiles/WikiLadderProject_lib.dir/WikiLadder.cpp.o
+/usr/bin/ranlib libWikiLadderProject_lib.a

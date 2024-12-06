@@ -1,0 +1,50 @@
+\doxysection{main.\+cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{main.cpp@{main.cpp}}
+
+
+Main entry point for the Wiki Ladder application.  
+
+
+{\ttfamily \#include "{}Page.\+h"{}}\newline
+{\ttfamily \#include "{}Wiki\+Ladder.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main entry point for the Wiki Ladder application. 
+
+This file handles user input and orchestrates the creation of \doxylink{classPage}{Page} and \doxylink{classWikiLadder}{Wiki\+Ladder} objects to find and display the Wikipedia ladder between two pages. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Asks the user to input the titles of the starting and target Wikipedia pages.
+
+The user is prompted to enter the title of the starting Wikipedia page and the target Wikipedia page.
+
+Initializes the \doxylink{classPage}{Page} objects for the start and target Wikipedia pages.
+
+The \doxylink{classPage}{Page} objects represent the starting and target Wikipedia pages and are initialized with the titles provided by the user.
+
+Fetches the links from the starting Wikipedia page.
+
+This method invokes the {\ttfamily fetch\+Links()} function on the start page to retrieve the links from the starting Wikipedia page.
+
+Creates a \doxylink{classWikiLadder}{Wiki\+Ladder} object and attempts to find the ladder between the start and target pages.
+
+The \doxylink{classWikiLadder}{Wiki\+Ladder} object is used to find a sequence of Wikipedia pages that links the start and target pages.
+
+Displays the results of the Wiki Ladder search.
+
+If a ladder is found, the sequence of pages is displayed. If no ladder is found, a message is shown.

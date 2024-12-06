@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/WikiLadderProject.dir/main.cpp.o CMakeFiles/WikiLadderProject.dir/Page.cpp.o CMakeFiles/WikiLadderProject.dir/WikiLadder.cpp.o  -o WikiLadderProject  /usr/lib/x86_64-linux-gnu/libxml2.so /usr/lib/x86_64-linux-gnu/libcurl.so 

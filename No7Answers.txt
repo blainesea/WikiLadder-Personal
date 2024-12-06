@@ -1,0 +1,16 @@
+-Written by Blaine
+A. I used the skeleton code that Sadie created to add the functionality to use real wikilinks vs some pre-defined
+relationships she had previously made. I implemented the BFS in WikiLadder.cpp that finds the shortest path 
+between wiki pages. I also made it so that the program accepts user input for the links, and having it so that it 
+interacts with the Page and Wikiladder objects.
+
+B. Sadie created somewhat of a skeleton code that had the basic setup for this assignment and she also 
+created the linter and Google Tests. She also helped me with some bug fixes along the way of course :)
+
+C. I feel like this class really instilled the principles of OOP for me. I had taken classes on it in the past, but 
+never understood it to the level I do now. I also feel much more comfortable with C++ in general, as I never grasped it
+in a class I took at a previous school. 
+
+D. I think this course was run very well. The assignments covered varieties of topics and introduced several skills I did 
+not think I would I learn in this class. I like the assignment/lab structure and appreciate the extra credit opportunities 
+I was given.

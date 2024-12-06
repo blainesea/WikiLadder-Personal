@@ -1,0 +1,54 @@
+\doxysection{Page.\+cpp File Reference}
+\hypertarget{Page_8cpp}{}\label{Page_8cpp}\index{Page.cpp@{Page.cpp}}
+
+
+Implements the methods for the \doxylink{classPage}{Page} class, which represents a Wikipedia page.  
+
+
+{\ttfamily \#include "{}Page.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$libxml/\+HTMLparser.\+h$>$}\newline
+{\ttfamily \#include $<$libxml/xpath.\+h$>$}\newline
+{\ttfamily \#include $<$libxml/xpath\+Internals.\+h$>$}\newline
+{\ttfamily \#include $<$curl/curl.\+h$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+size\+\_\+t \mbox{\hyperlink{Page_8cpp_a5cc5d063f4f2d30bb4ba27757a15d45e}{Write\+Callback}} (void \texorpdfstring{$\ast$}{*}contents, size\+\_\+t size, size\+\_\+t nmemb, std\+::string \texorpdfstring{$\ast$}{*}s)
+\begin{DoxyCompactList}\small\item\em Callback function for c\+URL to write fetched content into a string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implements the methods for the \doxylink{classPage}{Page} class, which represents a Wikipedia page. 
+
+This file includes the implementation of methods for fetching and parsing links from a Wikipedia page, as well as providing access to the page\textquotesingle{}s title and links. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{Page_8cpp_a5cc5d063f4f2d30bb4ba27757a15d45e}\index{Page.cpp@{Page.cpp}!WriteCallback@{WriteCallback}}
+\index{WriteCallback@{WriteCallback}!Page.cpp@{Page.cpp}}
+\doxysubsubsection{\texorpdfstring{WriteCallback()}{WriteCallback()}}
+{\footnotesize\ttfamily \label{Page_8cpp_a5cc5d063f4f2d30bb4ba27757a15d45e} 
+size\+\_\+t Write\+Callback (\begin{DoxyParamCaption}\item[{void \texorpdfstring{$\ast$}{*}}]{contents}{, }\item[{size\+\_\+t}]{size}{, }\item[{size\+\_\+t}]{nmemb}{, }\item[{std\+::string \texorpdfstring{$\ast$}{*}}]{s}{}\end{DoxyParamCaption})}
+
+
+
+Callback function for c\+URL to write fetched content into a string. 
+
+This function is called by c\+URL when it fetches data from a URL. It appends the fetched data to the provided string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em contents} & The data fetched by c\+URL. \\
+\hline
+{\em size} & The size of each data chunk. \\
+\hline
+{\em nmemb} & The number of chunks. \\
+\hline
+{\em s} & The string to append the fetched data to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total number of bytes processed. 
+\end{DoxyReturn}

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/FinalProject-300-500/Page.h
+string
+-
+vector
+-
+
+/workspaces/FinalProject-300-500/WikiLadder.cpp
+WikiLadder.h
+/workspaces/FinalProject-300-500/WikiLadder.h
+iostream
+-
+
+/workspaces/FinalProject-300-500/WikiLadder.h
+Page.h
+/workspaces/FinalProject-300-500/Page.h
+vector
+-
+string
+-
+queue
+-
+unordered_set
+-
+

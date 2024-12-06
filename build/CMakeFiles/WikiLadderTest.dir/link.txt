@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/WikiLadderTest.dir/test.cpp.o  -o WikiLadderTest  lib/libgtest_main.a libWikiLadderProject_lib.a lib/libgtest.a -lpthread /usr/lib/x86_64-linux-gnu/libxml2.so /usr/lib/x86_64-linux-gnu/libcurl.so 
