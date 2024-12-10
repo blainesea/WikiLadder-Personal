@@ -26,3 +26,6 @@ Install Google Test Framework and Run Test:
 -cmake ..
 -make
 -./WikiLadderTest
+
+
+sources: https://proxiesapi.com/articles/scraping-data-from-wikipedia-in-c

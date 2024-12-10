@@ -26,12 +26,12 @@
  * 
  * @param contents The data fetched by cURL.
  * @param size The size of each data chunk.
- * @param nmemb The number of chunks.
+ * @param blockCount The number of data blocks.
  * @param s The string to append the fetched data to.
  * @return The total number of bytes processed.
  */
-size_t WriteCallback(void* contents, size_t size, size_t nmemb, std::string* s) {
-    size_t totalSize = size * nmemb;
+size_t WriteCallback(void* contents, size_t size, size_t blockCount, std::string* s) {
+    size_t totalSize = size * blockCount;
     s->append(static_cast<char*>(contents), totalSize);
     return totalSize;
 }
