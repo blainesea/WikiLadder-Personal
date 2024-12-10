@@ -29,3 +29,4 @@ Install Google Test Framework and Run Test:
 
 
 sources: https://proxiesapi.com/articles/scraping-data-from-wikipedia-in-c
+https://everything.curl.dev/libcurl/cplusplus.html 
