@@ -1,39 +1,69 @@
-Wiki Ladder Project
+# 🔎 WikiLadder - Wikipedia Pathfinding App
+*A command-line application for finding the shortest path between Wikipedia articles.*
 
-Purpose:
-The Wiki Ladder Project is a command-line application designed to find a path between two Wikipedia pages by fetching links from each page and constructing a ladder of links. The project utilizes C++, GoogleTest for testing, and libcurl for fetching web pages. The main objective is to explore and demonstrate concepts of graph traversal using the links between Wikipedia articles.
+## 🚀 About the Project
+WikiLadder is a **C++-based application** that finds the shortest path between two Wikipedia pages by following hyperlinks on each page. It demonstrates **graph traversal algorithms**, specifically **BFS (Breadth-First Search)**, to determine the shortest link chain between articles.
 
-Sources:
-For libcurl implementation: 
-https://curl.se/libcurl/c/libcurl-tutorial.html
+## 🔧 Features
+- ✅ Finds the **shortest path** between any two Wikipedia articles.
+- ✅ Implements **graph traversal** techniques to navigate links.
+- ✅ Utilizes **libcurl** for fetching Wikipedia page contents.
+- ✅ Includes **GoogleTest** for unit testing.
+- ✅ Command-line interface for easy input/output.
 
-XML and XPath Sources: 
-https://www.w3schools.com/xml/xml_xpath.asp
-http://www.fifi.org/doc/libxml2-dev/libxml-dev.html/tutorial/ar01s05.html
-----------------------------------------------------------
+## 🛠️ Tech Stack
+- **Language:** C++
+- **Libraries:** libcurl, GoogleTest
+- **Build System:** CMake, Makefile
+- **Algorithms:** Graph traversal (BFS)
 
-Installation and Setup:
+## 🛠️ Setup & Installation
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/blainesea/WikiLadder-Personal.git
+cd WikiLadder-Personal
+```
+### 2️⃣ Install Dependencies
+On Ubuntu/Debian:
+```bash
+sudo apt update && sudo apt install build-essential libcurl4-openssl-dev
+```
+On MacOS (Homebrew):
+```bash
+brew install curl
+```
+### 3️⃣ Build the Application
+```bash
+make  # Uses Makefile
+```
+Or using CMake:
+```bash
+mkdir build && cd build
+cmake ..
+make
+```
+### 4️⃣ Run the Program
+```bash
+./WikiLadder
+```
 
-Install linter
--pip install cpplint
--cpplint main.cpp Page.cpp WikiLadder.cpp
+## 🎯 My Contributions
+As part of a team project, I contributed the following:
+- **Implemented graph traversal logic (BFS) for Wikipedia link pathfinding.**
+- **Developed core C++ modules** for parsing and handling page links.
+- **Optimized performance** to improve search efficiency.
 
-Run Program: 
--sudo apt update
--sudo apt install build-essential libcurl4-openssl-dev -libxml2 libxml2-dev
--make
--./WikiLadder
+## 🤝 Acknowledgments
+This project was built as part of a team with **[@sadieyoung10](https://github.com/sadieyoung10)**
 
-Clean Program:
--make clean
+## 🏆 Future Enhancements
+- ✅ Improve Wikipedia scraping efficiency.
+- ✅ Add **a web-based version** with a GUI.
+- ✅ Implement **AI-driven path predictions**.
 
-Install Google Test Framework and Run Test:
--git clone https://github.com/google/googletest.git googletest
--cd build
--cmake ..
--make
--./WikiLadderTest
+---
 
-
-sources: https://proxiesapi.com/articles/scraping-data-from-wikipedia-in-c
-https://everything.curl.dev/libcurl/cplusplus.html 
+### 🔗 Connect With Me
+💻 **GitHub:** [github.com/blainesea](https://github.com/blainesea)  
+🌟 **LinkedIn:** [linkedin.com/in/blaineseaman](https://linkedin.com/in/blaineseaman)  
+📧 **Email:** blaineseaman2001@gmail.com
